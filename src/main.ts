@@ -6,7 +6,6 @@ async function bootstrap() {
   // http://localhost:3034/api/profile
   app.setGlobalPrefix('api');
   app.enableCors();
-  app.useGlobalPipes()
   await app.listen(3034);
 }
 bootstrap();
